@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat";
+  color: black;
+  background: white;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.section_about {
+  width: 288px;
+  height: 395px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.h2_text {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.about_foto_mobile {
+  margin-bottom: 60px;
+}
+.about_text {
+  padding-top: 32px;
+  padding-bottom: 16px;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+}
