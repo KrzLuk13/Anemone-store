@@ -13,11 +13,26 @@ img {
   max-width: 100%;
   height: auto;
 }
+ul {
+  list-style: none;
+}
 .section_about {
-  width: 288px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.container_about {
+  width: 100%;
+  max-width: 288px;
   height: 395px;
   margin-left: 16px;
   margin-right: 16px;
+}
+
+.line_about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .h2_text {
@@ -27,8 +42,10 @@ img {
   line-height: normal;
   text-transform: uppercase;
 }
-.about_foto_mobile {
-  margin-bottom: 60px;
+.list_about {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 .about_text {
   padding-top: 32px;
